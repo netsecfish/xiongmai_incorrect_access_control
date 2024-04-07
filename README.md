@@ -49,7 +49,7 @@ ff00000000000000000000000000f103250000007b202252657422203a203130302c202253657373
 
 The following Python script demonstrates the vulnerability exploitation process:
 
-Notably, under normal operational conditions, accessing to commands that request sensitive information such as users information, system information, and storage information require proper authentication and authorization. However, **the discovered vulnerability circumvents these security measures, allowing an attacker to send specific command packets without any authentication.** 
+Notably, under normal operational conditions, accessing to commands that request sensitive information such as users information, system information, and storage information require proper authentication and authorization. However, **the discovered vulnerability circumvents these security measures, allowing an attacker to send command packets without any authentication.** 
 
 ```python
 import socket
